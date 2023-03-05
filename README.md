@@ -1,7 +1,7 @@
 Here briefly describe about my project.
 
 1. Project Name: JetPunk Quizzes
-   2.Netlify server link: https://sensational-sopapillas-0e9706.netlify.app/
+   2.Netlify server link: https://ornate-conkies-2a9b8e.netlify.app/
 2. Many techs and features have been used in this project.These are:
    a.React
    b.React-bootstrap
