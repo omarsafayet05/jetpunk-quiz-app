@@ -1,0 +1,29 @@
+.img-style {
+    width: 100%;
+
+}
+
+.carts-style {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 18px;
+}
+
+@media screen and (max-width:576px) {
+    .carts-style {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+
+        margin-left: 18%;
+
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .carts-style {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 9%;
+    }
+}

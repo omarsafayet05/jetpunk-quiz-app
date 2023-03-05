@@ -1,0 +1,14 @@
+.home-style {
+    font-style: italic;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.li-style {
+    font-weight: 900;
+    color: white;
+}
+
+.li-style:active {
+    color: olive;
+}

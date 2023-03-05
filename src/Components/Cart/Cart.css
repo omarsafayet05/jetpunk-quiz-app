@@ -1,0 +1,66 @@
+.cart-design {
+  border: 1px solid yellowgreen;
+  background-color: blueviolet;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  width: 80%;
+  color: #ffffff;
+}
+
+.cart-design img {
+  height: 260px;
+  width: 100%;
+  padding: 10px;
+}
+
+.icon-style {
+  height: 20px;
+  width: 25px;
+  color: white;
+  margin-left: 10px;
+}
+
+/* CSS */
+.button-72 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(
+    rgba(179, 132, 201, 0.84),
+    rgba(57, 31, 91, 0.84) 50%
+  );
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,
+    rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+  margin: auto;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,
+    rgba(255, 255, 255, 0.2) 0 0 12px, rgba(57, 31, 91, 0.6) 1px 1px 4px,
+    rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-72:hover {
+  background-image: linear-gradient(#c292d8, #391f5b 50%);
+}
+
+@media (min-width: 768px) {
+  .button-72 {
+    font-size: 15px;
+    padding: 18px 34px;
+  }
+}

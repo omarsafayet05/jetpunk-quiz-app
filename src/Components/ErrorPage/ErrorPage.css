@@ -1,0 +1,13 @@
+.error-style {
+    display: flex;
+    min-height: 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-style {
+    color: red;
+    font-weight: bold;
+}

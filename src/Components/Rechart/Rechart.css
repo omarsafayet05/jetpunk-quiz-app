@@ -1,0 +1,10 @@
+.text-style {
+  color: brown;
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    width: 100%;
+    height: auto;
+  }
+}
